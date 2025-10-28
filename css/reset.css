@@ -36,6 +36,7 @@ body {
   min-height: 100vh;
   line-height: 1.5;
   text-rendering: optimizeSpeed;
+  font-family: var(--fonte-principal);
 }
 
 /* 4. Make images and media responsive */
