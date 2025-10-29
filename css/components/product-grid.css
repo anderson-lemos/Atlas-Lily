@@ -1,0 +1,130 @@
+     .how-it-works {
+            background: #f8f9fa;
+            padding: 6rem 2rem;
+        }
+
+        .how-it-works-content {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .how-it-works h2 {
+            text-align: center;
+            font-size: 2.8rem;
+            color: #2c3e50;
+            margin-bottom: 1rem;
+            font-weight: 800;
+        }
+
+        .subtitle {
+            text-align: center;
+            font-size: 1.2rem;
+            color: #6c757d;
+            margin-bottom: 4rem;
+        }
+
+        .steps-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 3rem;
+            margin-bottom: 4rem;
+        }
+
+        .step {
+            background: white;
+            padding: 2.5rem 2rem;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 5px 25px rgba(0,0,0,0.08);
+            transition: all 0.3s;
+            position: relative;
+        }
+
+        .step:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+        }
+
+        .step-icon {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, #e63757 0%, #d62849 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1.5rem;
+        }
+
+        .step-icon svg {
+            stroke: white;
+        }
+
+        .step-number {
+            position: absolute;
+            top: -15px;
+            right: 20px;
+            background: #2c3e50;
+            color: white;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 1rem;
+        }
+
+        .step h3 {
+            font-size: 1.3rem;
+            color: #2c3e50;
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+
+        .step p {
+            color: #6c757d;
+            line-height: 1.8;
+        }
+
+        .cta-box {
+            background: linear-gradient(135deg, #e63757 0%, #d62849 100%);
+            padding: 3rem 2rem;
+            border-radius: 20px;
+            text-align: center;
+            color: white;
+            box-shadow: 0 10px 40px rgba(230, 55, 87, 0.3);
+        }
+        
+        .btn-primary{
+            padding: 10px;
+            width: 300px;
+            border-radius: 20px;
+            border: solid #ffffff;
+            font-size: 22px;
+            font-weight: 800;
+        }
+
+        .cta-box h3 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+           
+        }
+
+        .cta-box p {
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+            opacity: 0.95;
+            font-weight: 700;
+        }
+
+        .cta-box .btn-primary {
+            background: white;
+            color: #e63757;
+        }
+
+        .cta-box .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 25px rgba(255,255,255,0.4);
+        }
