@@ -1,6 +1,4 @@
-
-/* Header */
-        header {
+header {
             background: var(--color-background-primary);
             box-shadow: 0 0.125rem 0.9375rem var(--shadow-color-light-1);
             position: relative;
@@ -105,9 +103,3 @@
             font-size: 0.75rem;
             font-weight: bold;
         }
-
-      
-
-
-
-
