@@ -37,7 +37,7 @@ body {
   line-height: 1.6;
   text-rendering: optimizeSpeed;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #2c3e50;
+  color: var(--color-text-primary);
 }
 
 /* 4. Make images and media responsive */
@@ -90,8 +90,8 @@ textarea {
   outline: none;
 }
 :where(:focus-visible) {
-  outline: 3px solid Highlight;
-  outline-offset: 2px;
+  outline: 0.1875rem solid Highlight;
+  outline-offset: 0.125rem;
 }
 
 /* End of reset */

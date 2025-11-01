@@ -1,13 +1,13 @@
  footer {
-            background: #f8f9fa;
+            background: var(--color-background-secondary);
             padding: 4rem 2rem 2rem;
         }
 
         .footer-content {
-            max-width: 1400px;
+            max-width: 87.5rem;
             margin: 0 auto;
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(18.75rem, 1fr));
             gap: 3rem;
             margin-bottom: 3rem;
         }
@@ -15,7 +15,7 @@
         .footer-section h3 {
             font-size: 1.3rem;
             margin-bottom: 1.5rem;
-            color: #2c3e50;
+            color: var(--color-text-primary);
             font-weight: 700;
         }
 
@@ -28,14 +28,14 @@
         }
 
         .footer-links a {
-            color: #6c757d;
+            color: var(--color-text-secondary);
             text-decoration: none;
             transition: color 0.3s;
             font-size: 1rem;
         }
 
         .footer-links a:hover {
-            color: #e63757;
+            color: var(--color-primary);
         }
 
         .newsletter-form {
@@ -47,36 +47,36 @@
         .newsletter-input {
             flex: 1;
             padding: 1rem;
-            border: 2px solid #e9ecef;
-            border-radius: 10px;
+            border: 0.125rem solid var(--color-background-tertiary);
+            border-radius: 0.625rem;
             font-size: 1rem;
             transition: border-color 0.3s;
         }
 
         .newsletter-input:focus {
             outline: none;
-            border-color: #e63757;
+            border-color: var(--color-primary);
         }
 
         .btn-subscribe {
-            background: #e63757;
-            color: white;
+            background: var(--color-primary);
+            color: var(--color-text-light);
             padding: 1rem 2rem;
             border: none;
-            border-radius: 10px;
+            border-radius: 0.625rem;
             font-weight: 600;
             cursor: pointer;
             transition: all 0.3s;
         }
 
         .btn-subscribe:hover {
-            background: #d62849;
-            transform: translateY(-2px);
+            background: var(--color-primary-dark);
+            transform: translateY(-0.125rem);
         }
 
         .footer-bottom {
             text-align: center;
             padding-top: 2rem;
-            border-top: 1px solid #dee2e6;
-            color: #6c757d;
+            border-top: 0.0625rem solid var(--color-border-light);
+            color: var(--color-text-secondary);
         }

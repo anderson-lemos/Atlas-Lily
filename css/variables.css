@@ -24,6 +24,7 @@
 
   /* Cores de sombra */
   --shadow-color-light: rgba(0, 0, 0, 0.08);
+  --shadow-color-light-1: rgba(0, 0, 0, 0.1);
   --shadow-color-medium: rgba(0, 0, 0, 0.15);
   --shadow-color-primary: rgba(230, 55, 87, 0.3);
 
