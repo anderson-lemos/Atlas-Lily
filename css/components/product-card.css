@@ -67,8 +67,8 @@
             background-size: cover;
         }
 
-        .shelby{
-            background-image: url(../../images/products/shelby.jpg);
+        .mark{
+            background-image: url(../../images/products/mark.jpg);
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -88,6 +88,18 @@
         }
         .topo{
             background-image: url(../../images/products/topo-bolo.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .lily{
+            background-image: url(../../images/products/Lily.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .anthony{
+            background-image: url(../../images/products/Anthony.jpg);
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
