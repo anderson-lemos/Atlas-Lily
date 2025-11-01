@@ -1,0 +1,41 @@
+:root {
+  /* Cores principais da marca */
+  --color-primary: #e63757;
+  --color-primary-dark: #d62849;
+  --color-primary-light: #e74c6d;
+
+  /* Cores de texto */
+  --color-text-primary: #2c3e50;
+  --color-text-secondary: #6c757d;
+  --color-text-light: #ffffff;
+
+  /* Cores de fundo */
+  --color-background-primary: #ffffff;
+  --color-background-secondary: #f8f9fa;
+  --color-background-tertiary: #e9ecef;
+
+  /* Cores de borda */
+  --color-border-light: #dee2e6;
+  --color-border-card: #e6e6e6;
+
+  /* Cores de estado */
+  --color-hover: #0c8483;
+  --color-focus: #e63757;
+
+  /* Cores de sombra */
+  --shadow-color-light: rgba(0, 0, 0, 0.08);
+  --shadow-color-medium: rgba(0, 0, 0, 0.15);
+  --shadow-color-primary: rgba(230, 55, 87, 0.3);
+
+  /* Cores de gradiente */
+  --gradient-primary: linear-gradient(
+    135deg,
+    var(--color-primary) 0%,
+    var(--color-primary-dark) 100%
+  );
+  --gradient-background: linear-gradient(
+    135deg,
+    var(--color-background-secondary) 0%,
+    var(--color-background-tertiary) 100%
+  );
+}
