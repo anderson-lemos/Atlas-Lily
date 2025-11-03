@@ -71,14 +71,13 @@
   margin: 0; 
 }
 
-.pop {
+.ragnar {
 
-  background-image: url(../../images/products/pop.jpg);
+  background-image: url(../../images/products/ragnar.jpg);
 }
 
-.funko-pop {
- 
-  background-image: url(../../images/products/funko-pop.jpg);
+.scooby {
+  background-image: url(../../images/products/scobby.jpg);
 }
 
 .mark {
@@ -96,14 +95,14 @@
   background-image: url(../../images/products/matue.jpg);
 }
 
-.topo {
+.bolo {
     
   background-image: url(../../images/products/topo-bolo.jpg);
 }
 
-.lily {
+.vela {
 
-  background-image: url(../../images/products/Lily.jpg);
+  background-image: url(../../images/products/vela.jpg);
 }
 
 .anthony {
@@ -111,7 +110,7 @@
   background-image: url(../../images/products/Anthony.jpg);
 }
 
-.pop, .funko-pop, .mark, .greys, .matue, .topo, .lily, .anthony {
+.ragnar, .scooby, .mark, .greys, .matue, .bolo, .vela, .anthony {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
