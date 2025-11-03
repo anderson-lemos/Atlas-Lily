@@ -1,65 +1,66 @@
 header {
-            background: var(--color-background-primary);
-            box-shadow: 0 0.125rem 0.9375rem var(--shadow-color-light-1);
-            position: relative;
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
+  background: var(--color-background-primary);
+  box-shadow: 0 0.125rem 0.9375rem var(--shadow-color-light-1);
+  position: fixed;
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  z-index: 999;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 
-        }
+header.scrolled {
+  box-shadow: 0 0.25rem 1.25rem var(--shadow-color-medium);
+}
 
-        header.scrolled {
-            box-shadow: 0 0.25rem 1.25rem var(--shadow-color-medium);
-        }
+.logo {
+  width:8.125rem;
+}
+.menu {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-        .logo{
-            width: 9.375rem;
-          
-        }
-        .menu {
-            width: 100%;
-            max-width: 1200px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
+.nav-left {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
 
-        .nav-left {
-            display: flex;
-            gap: 3rem;
-            align-items: center;
-            
-        }
+.nav-left a {
+  text-decoration: none;
+  color: var(--color-text-primary);
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 0.03125rem;
+  transition: color 0.3s;
+  position: relative;
+}
 
-        .nav-left a {
-            text-decoration: none;
-            color: var(--color-text-primary);
-            font-weight: 600;
-            font-size: 1rem;
-            letter-spacing: 0.03125rem;
-            transition: color 0.3s;
-            position: relative;
-            
-        }
+.nav-left a::after {
+  content: "";
+  position: absolute;
+  bottom: -0.3125rem;
+  left: 0;
+  width: 0;
+  height: 0.125rem;
+  background: var(--color-primary);
+  transition: width 0.3s;
+}
 
-        .nav-left a::after {
-            content: '';
-            position: absolute;
-            bottom: -0.3125rem;
-            left: 0;
-            width: 0;
-            height: 0.125rem;
-            background: var(--color-primary);
-            transition: width 0.3s;
-        }
+.nav-left a:hover::after {
+  width: 100%;
+}
 
-        .nav-left a:hover::after {
-            width: 100%;
-        }
-
-        .nav-left a:hover {
-            color: var(--color-primary);
-        }
+.nav-left a:hover {
+  color: var(--color-primary);
+}
 
 .btn-right {
   background-color: var(--color-primary-light);
@@ -79,6 +80,3 @@ header {
   background: var(--color-primary-dark);
   transform: translateY(-0.125rem);
 }
-
-
-        
