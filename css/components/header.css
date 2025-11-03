@@ -64,8 +64,8 @@ header {
 .btn-right {
   background-color: var(--color-primary-light);
   color: var(--color-text-light);
-  padding: 5px;
-  width: 250px;
+  padding: 10px;
+  width: 230px;
   border-radius: 1.25rem;
   border: solid var(--color-text-light);
   font-size: 1.25rem;
