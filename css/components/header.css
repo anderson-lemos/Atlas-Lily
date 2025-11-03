@@ -2,18 +2,23 @@ header {
             background: var(--color-background-primary);
             box-shadow: 0 0.125rem 0.9375rem var(--shadow-color-light-1);
             position: relative;
-            
-            
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
         }
 
         header.scrolled {
             box-shadow: 0 0.25rem 1.25rem var(--shadow-color-medium);
         }
 
-        nav {
-            max-width: 87.5rem;
-            margin: 0 auto;
-            padding: 1.5rem 2rem;
+        .logo{
+            width: 9.375rem;
+          
+        }
+        .menu {
+            width: 100%;
+            max-width: 1200px;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -23,6 +28,7 @@ header {
             display: flex;
             gap: 3rem;
             align-items: center;
+            
         }
 
         .nav-left a {
@@ -33,6 +39,7 @@ header {
             letter-spacing: 0.03125rem;
             transition: color 0.3s;
             position: relative;
+            
         }
 
         .nav-left a::after {
@@ -54,11 +61,24 @@ header {
             color: var(--color-primary);
         }
 
-        .logo{
-            width: 9.375rem;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
+        .btn-right {
+  background-color: var(--color-primary-light);
+  color: var(--color-text-light);
+  padding: 5px;
+  width: 150px;
+  border-radius: 1.25rem;
+  border: solid var(--color-text-light);
+  font-size: 1.375rem;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s;
+}
 
-        }
+.btn-right:hover {
+  background: var(--color-primary-dark);
+  transform: translateY(-0.125rem);
+}
+
+
+        
