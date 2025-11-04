@@ -39,4 +39,23 @@
     var(--color-background-secondary) 0%,
     var(--color-background-tertiary) 100%
   );
+  /* Gradientes de redes sociais */
+  --gradient-instagram: linear-gradient(
+    135deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  --color-whatsapp-1: #25d366;
+  --color-whatsapp-2: #128c7e;
+  --gradient-whatsapp: linear-gradient(
+    135deg,
+    var(--color-whatsapp-1) 0%,
+    var(--color-whatsapp-2) 100%
+  );
+
+  /* Sombra mais forte usada em hover */
+  --shadow-color-strong: rgba(0, 0, 0, 0.2);
 }

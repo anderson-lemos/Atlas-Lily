@@ -1,0 +1,137 @@
+.social-media {
+  padding: 6rem 2rem;
+  background: var(--color-background-primary);
+}
+
+.social-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.social-media h2 {
+  text-align: center;
+  font-size: 2.8rem;
+  color: var(--color-text-primary);
+  margin-bottom: 1rem;
+  font-weight: 800;
+}
+
+.social-links-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.social-card {
+  background: var(--color-background-primary);
+  padding: 2.5rem 2rem;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 5px 25px var(--shadow-color-light);
+  transition: all 0.3s;
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.social-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(
+    90deg,
+    var(--color-primary),
+    var(--color-primary-dark)
+  );
+  transform: scaleX(0);
+  transition: transform 0.3s;
+}
+
+.social-card:hover::before {
+  transform: scaleX(1);
+}
+
+.social-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 40px var(--shadow-color-medium);
+}
+
+.social-icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  transition: all 0.3s;
+}
+
+.instagram .social-icon {
+  background: var(--gradient-instagram);
+  color: var(--color-text-light);
+}
+
+.whatsapp .social-icon {
+  background: var(--gradient-whatsapp);
+  color: var(--color-text-light);
+}
+
+.email .social-icon {
+  background: var(--gradient-primary);
+  color: var(--color-text-light);
+}
+
+.social-card:hover .social-icon {
+  transform: scale(1.1) rotate(5deg);
+}
+
+.social-card h3 {
+  font-size: 1.4rem;
+  color: var(--color-text-primary);
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.social-card p {
+  color: var(--color-text-secondary);
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
+
+.follow-btn {
+  padding: 0.7rem 2rem;
+  border-radius: 25px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: all 0.3s;
+  display: inline-block;
+}
+
+.instagram .follow-btn {
+  background: var(--gradient-instagram);
+  color: var(--color-text-light);
+}
+
+.whatsapp .follow-btn {
+  background: var(--gradient-whatsapp);
+  color: var(--color-text-light);
+}
+
+.email .follow-btn {
+  background: var(--gradient-primary);
+  color: var(--color-text-light);
+}
+
+.social-card:hover .follow-btn {
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px var(--shadow-color-strong);
+}
