@@ -15,6 +15,7 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   height: 100%;
+  scroll-behavior: smooth;
   
 }
 
@@ -37,6 +38,15 @@ svg {
   height: auto;
 }
 
+section {
+  scroll-margin-top: 10rem;
+}
+
+#about, #contact {
+  scroll-margin-top: 4rem;
+}
+
+
 
 :where(ul, ol) {
   list-style: none;
@@ -58,6 +68,8 @@ textarea {
   font: inherit; 
   margin: 0; 
 }
+
+
 
 
 @media (prefers-reduced-motion: reduce) {
