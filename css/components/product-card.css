@@ -17,7 +17,9 @@
 
 .products-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px,200px));
+  grid-template-columns: repeat(auto-fit, minmax(242px, 1fr));
+  gap: 2rem;
+
   
 
   gap: 2.5rem; 
