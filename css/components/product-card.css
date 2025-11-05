@@ -42,14 +42,14 @@
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15); 
 }
 
-.product-image {
+.product-card-image {
   width: 100%;
   padding-top: 100%; 
   position: relative;
   background: var(--gradient-background);
 }
 
-.product-image img {
+.product-card-image img {
   position: absolute;
   top: 0;
   left: 0;
