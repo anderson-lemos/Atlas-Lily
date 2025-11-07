@@ -73,22 +73,11 @@
   justify-content: center;
   margin-bottom: 1.5rem;
   transition: all 0.3s;
-}
-
-.instagram .social-icon {
-  background: var(--gradient-instagram);
-  color: var(--color-text-light);
-}
-
-.whatsapp .social-icon {
-  background: var(--gradient-whatsapp);
-  color: var(--color-text-light);
-}
-
-.email .social-icon {
   background: var(--gradient-primary);
   color: var(--color-text-light);
 }
+
+
 
 .social-card:hover .social-icon {
   transform: scale(1.1) rotate(5deg);
@@ -114,22 +103,11 @@
   font-size: 0.9rem;
   transition: all 0.3s;
   display: inline-block;
-}
-
-.instagram .follow-btn {
-  background: var(--gradient-instagram);
-  color: var(--color-text-light);
-}
-
-.whatsapp .follow-btn {
-  background: var(--gradient-whatsapp);
-  color: var(--color-text-light);
-}
-
-.email .follow-btn {
   background: var(--gradient-primary);
   color: var(--color-text-light);
 }
+
+
 
 .social-card:hover .follow-btn {
   transform: scale(1.05);
