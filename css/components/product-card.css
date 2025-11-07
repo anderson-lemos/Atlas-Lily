@@ -18,11 +18,11 @@
 .products-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(242px, 1fr));
-  gap: 2rem;
+  gap: 2.5rem;
 
   
 
-  gap: 2.5rem; 
+
   justify-content: center;
 }
 
@@ -47,16 +47,13 @@
   padding-top: 100%; 
   position: relative;
   background: var(--gradient-background);
+   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
-.product-card-image img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover; 
-}
+
 
 .product-info {
   padding: 1.5rem;
@@ -113,8 +110,3 @@
   background-image: url(../../images/products/Anthony.jpg);
 }
 
-.ragnar, .scooby, .mark, .greys, .matue, .bolo, .vela, .anthony {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
