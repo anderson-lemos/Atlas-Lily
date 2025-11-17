@@ -16,15 +16,27 @@ header.scrolled {
   box-shadow: 0 0.25rem 1.25rem var(--shadow-color-medium);
 }
 
-.logo img{
+.logo img {
   max-width: 8.125rem;
 }
+
 .nav-container {
   width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  gap: 200px;
+  padding: 0 2rem;
+}
+
+.nav-wrapper {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  justify-content: center;
+  gap: 3rem;
+  position: relative;
 }
 
 .nav-list {
@@ -41,6 +53,7 @@ header.scrolled {
   letter-spacing: 0.03125rem;
   transition: color 0.3s;
   position: relative;
+  right: 70px;
 }
 
 .nav-list a::after {
@@ -64,6 +77,9 @@ header.scrolled {
 
 .btn-secondary {
   margin: 0;
+
+  position: absolute;
+  right: 0;
 }
 
 .menu-toggle {
@@ -78,18 +94,74 @@ header.scrolled {
   z-index: 1001;
 }
 
-.menu-icon img {
-  width: 100%;
-  height: 100%;
-  transition: 0.3s ease;
-}
-
-.menu-icon:hover img {
+.menu-icon:hover .fa-bars {
   opacity: 0.7;
 }
 
-@media (max-width: 993px){
-  
-
+.fa-bars {
+  font-size: 24px;
+  color: var(--color-primary);
+  transition: 0.3s ease;
 }
- 
+
+@media (max-width: 993px) {
+  .nav-container {
+    justify-content: space-between;
+    padding: 0 1.5rem;
+    position: relative;
+    gap: 0;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .nav-wrapper {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    background: var(--color-background-primary);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 2rem 0;
+
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-20px);
+    transition: all 0.3s ease;
+
+    z-index: 999;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 100%;
+  }
+
+  .nav-list li {
+    text-align: center;
+    width: 100%;
+  }
+  .nav-list a {
+    right: 0;
+  }
+
+  .btn-secondary {
+    position: static;
+    width: 180px;
+    margin: 0 auto;
+    font-size: 1rem;
+  }
+
+  .menu-toggle:checked ~ .nav-wrapper {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
+  }
+}
