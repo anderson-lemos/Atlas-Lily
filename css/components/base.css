@@ -1,8 +1,10 @@
+/* Estilos base para botões e espaçamento entre seções */
 section {
   scroll-margin-top: 10rem;
 }
 
-#how-it-works, #contact {
+#how-it-works,
+#contact {
   scroll-margin-top: 4rem;
 }
 
@@ -19,7 +21,6 @@ section {
   font-size: 1.25rem;
   font-weight: 500;
   margin: 0 auto;
-  
 }
 
 .btn:hover {

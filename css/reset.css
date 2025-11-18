@@ -4,29 +4,47 @@
   box-sizing: border-box;
 }
 
+:where(html, body, h1, h2, h3, h4, h5, h6, p, figure, blockquote, dl, dd) {
+  margin: 0;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+/* Reset básico e recomendações de acessibilidade
+   Este arquivo remove estilos padrão e aplica box-sizing consistente.
+   Não adicione regras visuais específicas aqui; use arquivos de componentes.
+*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
 :where(html, body, h1, h2, h3, h4, h5, h6, p, figure, blockquote, dl, dd) {
   margin: 0;
 }
 
-
 html {
-  -webkit-text-size-adjust: 100%; 
+  -webkit-text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   height: 100%;
   scroll-behavior: smooth;
-  
 }
 
 body {
   min-height: 100vh;
   line-height: 1.6;
   text-rendering: optimizeSpeed;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: var(--color-text-primary);
 }
-
 
 img,
 picture,
@@ -38,15 +56,11 @@ svg {
   height: auto;
 }
 
-
-
-
 :where(ul, ol) {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-
 
 a {
   color: inherit;
@@ -58,12 +72,9 @@ input,
 optgroup,
 select,
 textarea {
-  font: inherit; 
-  margin: 0; 
+  font: inherit;
+  margin: 0;
 }
-
-
-
 
 @media (prefers-reduced-motion: reduce) {
   :where(*),
@@ -76,10 +87,10 @@ textarea {
   }
 }
 
-
 :where(:focus) {
   outline: none;
 }
+
 :where(:focus-visible) {
   outline: 0.1875rem solid Highlight;
   outline-offset: 0.125rem;

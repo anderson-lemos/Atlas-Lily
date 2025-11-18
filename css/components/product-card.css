@@ -1,117 +1,105 @@
 .products {
-  max-width: 75rem; 
-  margin: 5rem auto;
-  padding: 0 2rem;
-  
-}
-
-.products-title {
-  font-size: 2.5rem;
-  font-weight: 700;
-  color: var(--color-text-primary);
-  text-align: center;
-  margin-bottom: 4rem;
-  text-transform: uppercase;
-  letter-spacing: 0.1rem;
-}
-
-.products-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(242px, 1fr));
-  gap: 2.5rem;
-
-  
-
-
-  justify-content: center;
-}
-
-.product-card {
-  background: var(--color-background-primary);
-  border-radius: 1rem; 
-  overflow: hidden;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1); 
-  transition: transform 0.3s ease, box-shadow 0.3s ease; 
-  cursor: pointer;
-  display: flex;
-  flex-direction: column;
-}
-
-.product-card:hover {
-  transform: translateY(-0.5rem); 
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15); 
-}
-
-.product-card-image {
-  width: 100%;
-  padding-top: 100%; 
-  position: relative;
-  background: var(--gradient-background);
-   background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-}
-
-
-
-.product-info {
-  padding: 1.5rem;
-  text-align: center;
-  flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.product-info h3 {
-  font-size: 1.25rem; 
-  color: var(--color-text-primary);
-  font-weight: 600;
-  margin: 0; 
-}
-
-.ragnar {
-
-  background-image: url(../../images/products/ragnar.jpg);
-}
-
-.scooby {
-  background-image: url(../../images/products/scobby.jpg);
-}
-
-.mark {
-
-  background-image: url(../../images/products/mark.jpg);
-}
-
-.greys {
-
-  background-image: url(../../images/products/greys.jpg);
-}
-
-.matue {
-
-  background-image: url(../../images/products/matue.jpg);
-}
-
-.bolo {
-    
-  background-image: url(../../images/products/topo-bolo.jpg);
-}
-
-.vela {
-
-  background-image: url(../../images/products/vela.jpg);
-}
-
-.anthony {
-
-  background-image: url(../../images/products/Anthony.jpg);
-}
-
-@media (max-width: 554px) {
-  .products-grid {
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  /* Cards de produto e grid da galeria */
+  .products {
+    max-width: 75rem;
+    margin: 5rem auto;
+    padding: 0 2rem;
   }
-}
+
+  .products-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--color-text-primary);
+    text-align: center;
+    margin-bottom: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+  }
+
+  .products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(242px, 1fr));
+    gap: 2.5rem;
+    justify-content: center;
+  }
+
+  .product-card {
+    background: var(--color-background-primary);
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .product-card:hover {
+    transform: translateY(-0.5rem);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+  }
+
+  .product-card-image {
+    width: 100%;
+    padding-top: 100%;
+    position: relative;
+    background: var(--gradient-background);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .product-info {
+    padding: 1.5rem;
+    text-align: center;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .product-info h3 {
+    font-size: 1.25rem;
+    color: var(--color-text-primary);
+    font-weight: 600;
+    margin: 0;
+  }
+
+  /* Imagens de fundo para cada card. Se mudar o nome do arquivo, atualize aqui. */
+  .ragnar {
+    background-image: url(../../images/products/ragnar.jpg);
+  }
+
+  .scooby {
+    background-image: url(../../images/products/scobby.jpg);
+  }
+
+  .mark {
+    background-image: url(../../images/products/mark.jpg);
+  }
+
+  .greys {
+    background-image: url(../../images/products/greys.jpg);
+  }
+
+  .matue {
+    background-image: url(../../images/products/matue.jpg);
+  }
+
+  .bolo {
+    background-image: url(../../images/products/topo-bolo.jpg);
+  }
+
+  .vela {
+    background-image: url(../../images/products/vela.jpg);
+  }
+
+  .anthony {
+    background-image: url(../../images/products/Anthony.jpg);
+  }
+
+  @media (max-width: 554px) {
+    .products-grid {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+  }

@@ -1,3 +1,8 @@
+/* Hero / seção principal: texto e imagens do topo
+   Observações:
+   - Imagens decorativas são escondidas em telas menores para evitar overflow.
+*/
+
 .hero-section {
   display: flex;
   flex-direction: row;
@@ -13,6 +18,7 @@
   font-size: 3.125rem;
   line-height: 60px;
 }
+
 .hero-section span {
   color: var(--color-primary-light);
   font-weight: 700;
@@ -26,6 +32,7 @@
 .hero-image-right {
   width: 300px;
 }
+
 .hero-image-left {
   transform: rotate(-7deg);
 }
@@ -42,48 +49,43 @@
   margin-right: 100px;
 }
 
-
-
-@media(max-width: 884px){
-  .hero-section{
+@media (max-width: 884px) {
+  .hero-section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 100px;
-    
   }
 
-  .hero-content{
+  .hero-content {
     margin: 0;
     align-items: center;
     text-align: center;
   }
+
   .hero-image-left,
-  .hero-image-right{
+  .hero-image-right {
     display: none;
   }
 
-  .hero-section h1{
+  .hero-section h1 {
     font-size: 2.5rem;
     line-height: 50px;
   }
-
-  
-
 }
 
-@media(max-width: 768px){
-  .hero-section{
+@media (max-width: 768px) {
+  .hero-section {
     padding: 2rem;
     margin-top: 150px;
   }
 
-  .hero-section h1{
+  .hero-section h1 {
     font-size: 2rem;
     line-height: 40px;
   }
 
-  .hero-content p{
+  .hero-content p {
     font-size: 1rem;
   }
 }

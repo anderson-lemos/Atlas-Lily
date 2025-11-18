@@ -1,82 +1,83 @@
+/* Footer: informações de envio, newsletter e créditos */
 footer {
-            background: var(--color-background-secondary);
-            padding: 4rem 2rem 2rem;
-        }
+  background: var(--color-background-secondary);
+  padding: 4rem 2rem 2rem;
+}
 
-        .footer-content {
-            max-width: 87.5rem;
-            margin: 0 auto;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(18.75rem, 1fr));
-            gap: 3rem;
-            margin-bottom: 3rem;
-        }
+.footer-content {
+  max-width: 87.5rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18.75rem, 1fr));
+  gap: 3rem;
+  margin-bottom: 3rem;
+}
 
-        .footer-section h3 {
-            font-size: 1.3rem;
-            margin-bottom: 1.5rem;
-            color: var(--color-text-primary);
-            font-weight: 700;
-        }
+.footer-section h3 {
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+  color: var(--color-text-primary);
+  font-weight: 700;
+}
 
-        .footer-links {
-            list-style: none;
-        }
+.footer-links {
+  list-style: none;
+}
 
-        .footer-links li {
-            margin-bottom: 0.8rem;
-        }
+.footer-links li {
+  margin-bottom: 0.8rem;
+}
 
-        .footer-links a {
-            color: var(--color-text-secondary);
-            text-decoration: none;
-            transition: color 0.3s;
-            font-size: 1rem;
-        }
+.footer-links a {
+  color: var(--color-text-secondary);
+  text-decoration: none;
+  transition: color 0.3s;
+  font-size: 1rem;
+}
 
-        .footer-links a:hover {
-            color: var(--color-primary);
-        }
+.footer-links a:hover {
+  color: var(--color-primary);
+}
 
-        .newsletter-form {
-            display: flex;
-            gap: 0.5rem;
-            margin-top: 1rem;
-        }
+.newsletter-form {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
 
-        .newsletter-input {
-            flex: 1;
-            padding: 1rem;
-            border: 0.125rem solid var(--color-background-tertiary);
-            border-radius: 0.625rem;
-            font-size: 1rem;
-            transition: border-color 0.3s;
-        }
+.newsletter-input {
+  flex: 1;
+  padding: 1rem;
+  border: 0.125rem solid var(--color-background-tertiary);
+  border-radius: 0.625rem;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
 
-        .newsletter-input:focus {
-            outline: none;
-            border-color: var(--color-primary);
-        }
+.newsletter-input:focus {
+  outline: none;
+  border-color: var(--color-primary);
+}
 
-        .btn-subscribe {
-            background: var(--color-primary);
-            color: var(--color-text-light);
-            padding: 1rem 2rem;
-            border: none;
-            border-radius: 0.625rem;
-            font-weight: 600;
-            cursor: pointer;
-            transition: all 0.3s;
-        }
+.btn-subscribe {
+  background: var(--color-primary);
+  color: var(--color-text-light);
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 0.625rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+}
 
-        .btn-subscribe:hover {
-            background: var(--color-primary-dark);
-            transform: translateY(-0.125rem);
-        }
+.btn-subscribe:hover {
+  background: var(--color-primary-dark);
+  transform: translateY(-0.125rem);
+}
 
-        .footer-bottom {
-            text-align: center;
-            padding-top: 2rem;
-            border-top: 0.0625rem solid var(--color-border-light);
-            color: var(--color-text-secondary);
-        }
+.footer-bottom {
+  text-align: center;
+  padding-top: 2rem;
+  border-top: 0.0625rem solid var(--color-border-light);
+  color: var(--color-text-secondary);
+}
