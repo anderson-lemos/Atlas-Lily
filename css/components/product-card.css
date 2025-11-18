@@ -110,3 +110,8 @@
   background-image: url(../../images/products/Anthony.jpg);
 }
 
+@media (max-width: 554px) {
+  .products-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
