@@ -124,3 +124,15 @@
   box-shadow: 0 0.375rem 1.5625rem var(--shadow-color-light);
 }
 
+@media (max-width: 768px) {
+    .how-it-works {
+      padding: 2rem 3rem;
+    }
+    .how-it-works h2 {
+      font-size: 2rem;
+    }
+
+  .cta-box h3{
+    font-size: 1.5rem;
+  }
+}
