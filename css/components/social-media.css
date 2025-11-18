@@ -113,3 +113,16 @@
   transform: scale(1.05);
   box-shadow: 0 5px 15px var(--shadow-color-strong);
 }
+
+
+@media (max-width: 768px) {
+  .social-media {
+    padding: 4rem 1rem;
+  }
+
+  .social-media h2 {
+    font-size: 2rem;
+  }
+
+ 
+}
