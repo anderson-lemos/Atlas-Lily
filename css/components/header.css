@@ -1,8 +1,4 @@
-/* Estilos do cabeçalho e navegação principal
-   Notas:
-   - O botão de menu (mobile) alterna a visibilidade de `.nav-wrapper`.
-   - Mantive as regras existentes; apenas adicionei comentários e formatação.
-*/
+/* Estilos do cabeçalho e navegação principal*/
 
 header {
   background: var(--color-background-primary);

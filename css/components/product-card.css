@@ -1,6 +1,5 @@
+/* Cards de produto e grid da galeria */
 .products {
-  /* Cards de produto e grid da galeria */
-  .products {
     max-width: 75rem;
     margin: 5rem auto;
     padding: 0 2rem;
@@ -98,8 +97,3 @@
     background-image: url(../../images/products/Anthony.jpg);
   }
 
-  @media (max-width: 554px) {
-    .products-grid {
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    }
-  }

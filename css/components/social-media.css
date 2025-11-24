@@ -52,7 +52,7 @@
     var(--color-primary-dark)
   );
   transform: scaleX(0);
-  /* Seção de redes sociais e cartões de contato */
+  }
   .social-media {
     padding: 6rem 2rem;
     background: var(--color-background-primary);
