@@ -1,4 +1,4 @@
-# ATLAS & LILY – Itens Personalizados em Biscuit 🧁✨
+# ATLAS & LILY – Itens Personalizados em Biscuit 
 
 Este é um projeto pessoal desenvolvido para estudo, prática e portfólio.  
 O site é inspirado em uma página real do Instagram que vende miniaturas personalizadas em biscuit — um ateliê administrado pela minha namorada, que produz peças artesanais como miniaturas estilo funko, velas personalizadas, toppers e muito mais.
